@@ -1,5 +1,5 @@
 {
-    "name" : "cspoo/swiftmailer-mailgun-bundle",
+    "name" : "openthinklabs/swiftmailer-mailgun-bundle",
     "type" : "symfony-bundle",
     "description" : "Swiftmailer Mailgun bundle",
     "keywords" : ["E-Mail", "Swiftmailer", "mailgun"],
