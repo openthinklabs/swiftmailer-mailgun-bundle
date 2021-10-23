@@ -17,7 +17,7 @@
     "minimum-stability" : "stable",
     "require": {
         "php": "^7.3 || ^8.0",
-        "swiftmailer/swiftmailer": "^6.0",
+        "openthinklabs/swiftmailer": "dev-master#b538cea64c6ac86a21db9129f54e998dd45e7909@dev",
         "mailgun/mailgun-php": "^3.0",
         "symfony/config": "^3.3 || ^4.0 || ^5.0",
         "symfony/dependency-injection": "^3.3 || ^4.0 || ^5.0",
