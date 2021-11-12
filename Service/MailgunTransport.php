@@ -133,7 +133,7 @@ class MailgunTransport implements Swift_Transport
                     'mailgun_http_response_body' => $e->getResponseBody()
                 ];
             }
-            if($this->logger) {
+            if ($this->logger) {
                 $this->logger->error($e->getMessage(), $context);
             }
         }
@@ -234,5 +234,33 @@ class MailgunTransport implements Swift_Transport
     public function ping()
     {
         return true;
+    }
+
+    /**
+     * The password for authentication.
+     *
+     * @var string
+     */
+    private $password;
+
+    /**
+     * Set the password to authenticate with.
+     *
+     * @param string $password
+     */
+    public function setPassword($password)
+    {
+        $this->password = $password;
+    }
+
+
+    /**
+     * Get the password to authenticate with.
+     *
+     * @return string
+     */
+    public function getPassword()
+    {
+        return $this->password;
     }
 }
